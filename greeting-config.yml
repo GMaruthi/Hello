@@ -1,12 +1,7 @@
 security:
   basic:
-    enabled: false
+    enabled: false # turn off securing our application endpoints
 
 management:
   security:
-    enabled: false
-
-logging:
-  level:
-    io:
-      pivotal: DEBUG
+    enabled: false # turn off securing the actuator endpoints
